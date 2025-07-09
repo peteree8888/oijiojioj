@@ -1,8 +1,6 @@
-/*
+/* Highlight the clicked search result */
+.search-result-file.is-selected-search-result {
+  background-color: rgba(150, 150, 150, 0.1);
+  border-left: 3px solid var(--interactive-accent);
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
